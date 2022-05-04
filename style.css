@@ -1,0 +1,41 @@
+h1{
+    font-size: 45px;
+}
+h2{
+    color: rgb(99, 103, 107);
+    
+}
+h2.nasa{
+    font-size:24px;
+    margin-right: 500px;
+}
+
+img{
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 30px;
+}
+h3{
+    color: rgb(99, 103, 107);
+
+}
+a{
+    color:blue
+}
+ p.NASA{
+    color: green;
+    font-size: 20px;
+}
+p.agencia {
+    font-size: 23px;
+    margin-top : 70px;
+    margin-right: 500px;
+}
+h2.numero{
+    color:black;
+    font-size: 30px;
+}
+li {
+    font-size: 20px;
+    margin: 10px;
+}
