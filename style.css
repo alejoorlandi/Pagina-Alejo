@@ -1,41 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+}
+header{
+background-color: rgb(7, 1, 32);
+padding: 2rem 0;
+
+}
+.header a {
+color: white;
+text-decoration: none;
+
+}
+.tn img {
+
+width: 100px;
+height: 100px;
+
+}
+.contenedor_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navegation ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.navegation ul li {
+display:inline-block;
+
+}
+.navegation ul li a {
+display: block;
+padding:0.5rem 1rem;
+border-radius: 50px;
+transition: all 0.2s linear;
+
+}
+
+.navegation ul li a:hover{
+    background: rgb(0, 0, 5);
+}
+
+
+
 h1{
     font-size: 45px;
+    margin-left: 45px;
 }
 h2{
     color: rgb(99, 103, 107);
+    margin-left: 45px;
+    
     
 }
 h2.nasa{
-    font-size:24px;
+    font-size:20px;
     margin-right: 500px;
+    margin-left: 45px;
 }
 
 img{
     max-width: 800px;
     max-height: 800px;
-    margin-left: 30px;
+   
+    margin-left: 45px;
 }
 h3{
     color: rgb(99, 103, 107);
+    margin-left: 30px;
 
 }
 a{
     color:blue
+    margin-left: 30px;
 }
  p.NASA{
     color: green;
-    font-size: 20px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+p.leer{
+    margin-left: 30px;
 }
 p.agencia {
-    font-size: 23px;
+    font-size: 19px;
     margin-top : 70px;
     margin-right: 500px;
+    margin-left: 30px;
 }
 h2.numero{
     color:black;
-    font-size: 30px;
+    font-size: 26px;
+    margin-left: 30px;
 }
 li {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px;
+    margin-left: 30px;
 }
+h2.titulo2 {
+    color:black;
+    font-size: 28px;
+    margin-left: 30px;
+}
+p.roca {
+    font-size: 18px;
+    margin-right: 450px;  
+    margin-left: 30px; 
+}
+p.visita {
+
+    font-size: 18px;
+    margin-right: 450px;
+    margin-left: 30px;
+}
+p.gigante {
+    font-size: 19px;
+    margin-right: 450px;
+    margin-left: 30px;
+    
+}
+.formulario{
+   margin-bottom: 200px;
+    margin-left: 900px;
+    padding:10px ;
+    margin-left: 30px;
+ }
